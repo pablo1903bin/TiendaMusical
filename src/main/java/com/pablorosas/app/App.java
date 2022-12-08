@@ -1,13 +1,13 @@
 package com.pablorosas.app;
+import controller.com.persona;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+
+public class App {
+    public static void main( String[] args ){
+    	persona per = new persona("Pablo",6);
+    	
+        System.out.println(per.toString());
     }
-}
+};
+ 
+
